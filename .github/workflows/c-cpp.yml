@@ -25,10 +25,10 @@ jobs:
         cd build
         cmake ..
         make
-      working-directory: ./hello-world
+      working-directory: .
 
     - name: Run Tests
       run: |
         cd build
         ./rectange
-      working-directory: ./hello-world
+      working-directory: .
